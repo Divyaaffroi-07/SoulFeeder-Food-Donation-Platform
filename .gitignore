@@ -1,0 +1,23 @@
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Dependencies
+node_modules/
+frontend/node_modules/
+backend/node_modules/
+
+# Build files
+dist/
+build/
+target/
+
+# IDE files
+.idea/
+.vscode/
+
+# Logs and sensitive keys
+*.log
+*.pem
+*.key
